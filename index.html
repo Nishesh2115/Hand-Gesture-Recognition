@@ -1,0 +1,44 @@
+
+<html>
+<body>
+  <div class="login">
+   <h1> Predict Alphabet From Hand Gesture </h1>
+   <h3> Enter the following values to predict the Alphabet </h3>
+
+   <form action="{{url_for('predict')}}" method="post">
+
+         <input type="number" step="any" name="cosmi" placeholder="cosmi" required="required"/>
+         <br>
+         <input type="number" step="any" name="cospr" placeholder="cospr" required="required"/>
+         <br>
+         <input type="number" step="any" name="cosrm" placeholder="cosrm" required="required"/>
+         <br>
+         <input type="number" step="any" name="d1" placeholder="d1" required="required"/>
+         <br>
+	 <input type="number" step="any" name="d2" placeholder="d2" required="required"/>
+         <br>
+         <input type="number" step="any" name="d3" placeholder="d3" required="required"/> 
+         <br>  
+         <input type="number" step="any" name="d4" placeholder="d4" required="required"/>
+         <br>
+         <input type="number" step="any" name="d5" placeholder="d5" required="required"/>
+         <br>
+         <input type="number" step="any" name="d6" placeholder="d6" required="required"/>
+         <br>
+         <input type="number" step="any" name="d7" placeholder="d7" required="required"/>
+          <br>
+         <input type="number" step="any" name="d8" placeholder="d8" required="required"/>
+
+        <br>
+        <br>
+        <button type="submit" style="height50px;width:80px" class="btn"> Predict</button>
+
+        <br>
+        <br> 
+        {{prediction_text}}
+
+    </form>
+
+  </div>
+</body>
+</html>
