@@ -20,3 +20,13 @@ This is a very simple Multi-Class classification problem where we have 26 classe
 DATA
 Data is manually produced by Leap Motion Sensor for every alphabet, Total 26000 rows has been taken from the Sensor and every five rows represent one instance of alphabet so we have 200 rows for every alphabet
 
+# DATA
+Data is manually produced by Leap Motion Sensor for every alphabet, Total 26000 rows has been taken from the Sensor and every five rows represent one instance of alphabet so we have 200 rows for every alphabet
+
+# PERFORMANCE METRIC
+Now here, it is a Multi-Class Classification problem, We want High Precision and High Recall so F1 score will be a good metric and we don't have any imbalance in the data so F1_weighted will work fine. Another metric can be multiclass logloss.
+
+# DATA COLLECTION
+LMC was connected to python to extract the values for training our model, to connect LMC with python we used LEAP.PY file given by LMC API. We imported Leap.py file from the folder provide by Leap. 
+Code in leap.py shows the different libraries such as circle gestures,key tap gesture and swipe gestures were used. I have taken into consideration the finger names, bones in each finger and their start and end points.
+In each frame the LMC gives us the value for each finger its position, it is distal bone co-ordinate, the palm width, palm positions and palm radius
