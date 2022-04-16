@@ -1,5 +1,6 @@
 # Hand-Gesture-Recognition
 
+# Blog Link-https://medium.com/analytics-vidhya/hand-gesture-recognition-for-deaf-mute-people-using-leap-motion-sensor-1d4fda415d76
 # BUSINESS PROBLEM
 
 Business problem is very simple,  Lets say i own a mcdonalds store or a Dominos store which stays too busy all the time, now one day a mute couple came to my store and tried to place orders but the staff at the counter did not understand their language and mind you, store is very busy, People are highly impatient when it comes to order their food.
